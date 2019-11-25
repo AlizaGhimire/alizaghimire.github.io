@@ -10,7 +10,7 @@ body {
 .navigation {
     padding: 0;
 }
-.navigation li {
+.navigation li  iframe{
     display: inline-block;
     margin-right: 15px;
 }
