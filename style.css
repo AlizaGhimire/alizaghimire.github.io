@@ -42,12 +42,29 @@ a{
 }
 #myBtn {
     right: 30px;
-    background: red;
+    background: bisque;
 
     }
 #myBtn:hover {
     background-color: #555 ;  
 }
+
+.container {
+    display: flex;
+}
+
+.left-column img,
+.right-column img {
+    width: 100%;
+}
+
+.left-column,
+.right-column {
+    width: 50%;
+    padding: 20px;
+}
+
+
 @media screen and (max-width: 500px){
     body {
         background : yellowgreen;
