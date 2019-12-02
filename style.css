@@ -2,11 +2,16 @@
 
 body {
     background-color:pink;
-    font-family: 'Yeon Sung', cursive;
-  
     font-size: 18px;
     max-width: 900px;
     margin: auto;
+    font-family: 'Yeon Sung', cursive;
+   
+    background-image: hommie.jpeg;
+    background-image size: :fullscreen;
+    repeat: no repeat
+
+  
 
 }
 .navigation {
