@@ -40,19 +40,19 @@ a{
 .greenparagraph{
     color: green;
 }
+#myBtn {
+    right: 30px;
+    background: red;
+
+    }
+#myBtn:hover {
+    background-color: #555 ;  
+}
 @media screen and (max-width: 500px){
     body {
         background : yellowgreen;
     }
     p{
         font-size: 28px;
-    }
-   #myBtn {
-    right: 30px;
-
-    }
-   #myBtn:hover {
-         {
-            background-color: #555 ;  
     }
 }
