@@ -8,6 +8,7 @@ body {
     background: pink;
     font-family: 'Yeon Sung', cursive;
     min-height: 100vh;
+    padding-bottom: 100px;
 }
 
 body.homepage {
@@ -22,6 +23,7 @@ body.homepage {
     color: white;
     min-height: 100vh;
     position: relative;
+    padding-bottom: 100px;
 }
 
 .navigation {
@@ -65,8 +67,7 @@ a{
 footer {
     clear: both;
     position: absolute;
-    bottom: 0;
-    height: 200px;
+    bottom: 10px;
 }
 
 .container {
