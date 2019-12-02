@@ -5,15 +5,25 @@ body {
     font-size: 18px;
     max-width: 900px;
     margin: auto;
+    background: pink;
     font-family: 'Yeon Sung', cursive;
-   
-    background-image: hommie.jpeg;
-    background-image size: :fullscreen;
-    repeat: no repeat
-
-  
-
+    min-height: 100vh;
 }
+
+body.homepage {
+    background-image: url('hommie.jpeg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.site {
+    margin: auto;
+    color: white;
+    min-height: 100vh;
+    position: relative;
+}
+
 .navigation {
     padding: 0;
 }
@@ -29,7 +39,7 @@ body {
 
 }
 h1{
-    color: rgb(65, 33, 33);
+    color: rgb(253, 251, 251);
 }
 p{
     color: rgb(58, 32, 8);
@@ -46,12 +56,17 @@ a{
     color: green;
 }
 #myBtn {
-    right: 30px;
     background: bisque;
-
-    }
+}
 #myBtn:hover {
     background-color: #555 ;  
+}
+
+footer {
+    clear: both;
+    position: absolute;
+    bottom: 0;
+    height: 200px;
 }
 
 .container {
