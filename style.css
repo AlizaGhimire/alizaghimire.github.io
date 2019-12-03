@@ -1,7 +1,7 @@
 
 
 body {
-    background-color:pink;
+    background-color:rosybrown;
     font-size: 18px;
     max-width: 900px;
     margin: auto;
@@ -45,13 +45,15 @@ h1{
 
 }
 p{
-    color: rgb(58, 32, 8);
+    color: maroon (58, 32, 8);
 }
 
 a{
-    color:  black;
+    color: black;
 }
-
+.center{
+    color:whitesmoke;
+}
 }
 #myBtn {
     background: bisque;
