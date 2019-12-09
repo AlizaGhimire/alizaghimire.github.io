@@ -85,7 +85,7 @@ footer {
 
 @media screen and (max-width: 500px){
     body {
-        background : yellowgreen;
+        background : palevioletred;
     }
     p{
         font-size: 28px;
